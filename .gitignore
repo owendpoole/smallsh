@@ -53,3 +53,15 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignore everything by default
+*
+
+# Do not ignore directories, so Git can search them for files
+!*/
+
+# Whitelist all .c files
+!*.c
+
+# Whitelist the .gitignore file itself (highly recommended)
+!.gitignore
