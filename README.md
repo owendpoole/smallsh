@@ -1,6 +1,6 @@
 # Small Shell
 
-Small Shell is a lightweight Unix-style command-line shell implemented in C. This project recreates core shell functionality, including command parsing, process creation and management, input/output redirection, background execution, and POSIX signal handling.
+Small Shell is a lightweight Unix-style command-line shell implemented in C. This project features command parsing, process creation and management, input/output redirection, background execution, and POSIX signal handling.
 
 The shell provides an interactive command prompt and supports executing both built-in and external commands through child processes.
 
